@@ -16,6 +16,7 @@ const Post = (props) => {
     <div>
       <Head>
         <title>{title}</title>
+        <meta property='og:title' content={title} />
       </Head>
       <p>Presentation: {presentationId}</p>
       <p>Books SSR: {title}</p>
