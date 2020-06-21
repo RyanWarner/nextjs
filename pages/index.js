@@ -1,8 +1,13 @@
 import Head from 'next/head'
+import styled from 'styled-components'
+
+export const MyComponent = styled.div`
+  color: red;
+`
 
 export default function Home() {
   return (
-    <div className="container">
+    <MyComponent>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -204,6 +209,6 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+    </MyComponent>
   )
 }
