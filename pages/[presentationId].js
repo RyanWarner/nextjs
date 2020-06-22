@@ -18,6 +18,7 @@ const Post = (props) => {
       <Head>
         <title>{title}</title>
         <meta property='og:title' content={title} />
+        <meta property='og:description' content={presentationId} />
         <meta property='og:image' content={book.cover.medium} />
         <meta name='twitter:site' content='@RyanWarnerCodes' />
         <meta name='twitter:card' content='summary_large_image' />
